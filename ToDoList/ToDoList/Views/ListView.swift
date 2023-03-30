@@ -17,6 +17,11 @@ struct ListView: View {
         List {
             ForEach(listViewModel.items) { item in
                 ListRowView(item: item)
+                    .onTapGesture {
+                        withAnimation(.linear) {
+                            listViewModel.updateItem(item: item)
+                        }
+                    }
             }
             .onDelete(perform: listViewModel.deleteItem)
             .onMove(perform: listViewModel.moveItem)
@@ -39,21 +44,7 @@ struct ListView_Previews: PreviewProvider {
         NavigationView {
             ListView()
         }
-    }
-}
-
-extension Text {
-    func customStyled(font: Font?,
-                      foregroundColor: Color,
-                      backgroundColor: Color,
-                      padding: CGFloat,
-                      cornerRadius: CGFloat) -> some View {
-        self
-            .font(font)
-            .foregroundColor(foregroundColor)
-            .padding(padding)
-            .background(backgroundColor)
-            .cornerRadius(cornerRadius)
+        .environmentObject(ListViewModel())
     }
 }
 
