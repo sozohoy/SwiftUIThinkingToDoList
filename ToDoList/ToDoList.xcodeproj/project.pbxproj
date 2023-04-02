@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AF6AD62629D1BF12005A24B0 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6AD62529D1BF12005A24B0 /* AddView.swift */; };
 		AF6AD62929D1D595005A24B0 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6AD62829D1D595005A24B0 /* ItemModel.swift */; };
+		AF71E1B929D9796000B789EC /* NoItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF71E1B829D9796000B789EC /* NoItemsView.swift */; };
 		AFACA68629CECE6E00D95232 /* ToDoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFACA68529CECE6E00D95232 /* ToDoListApp.swift */; };
 		AFACA68829CECE6E00D95232 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFACA68729CECE6E00D95232 /* ContentView.swift */; };
 		AFACA68A29CECE6F00D95232 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFACA68929CECE6F00D95232 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		AF6AD62529D1BF12005A24B0 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		AF6AD62829D1D595005A24B0 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		AF71E1B829D9796000B789EC /* NoItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemsView.swift; sourceTree = "<group>"; };
 		AFACA68229CECE6E00D95232 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFACA68529CECE6E00D95232 /* ToDoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListApp.swift; sourceTree = "<group>"; };
 		AFACA68729CECE6E00D95232 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				AFACA69629CECF3000D95232 /* ListView.swift */,
 				AFACA69829CED28E00D95232 /* ListRowView.swift */,
 				AF6AD62529D1BF12005A24B0 /* AddView.swift */,
+				AF71E1B829D9796000B789EC /* NoItemsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				AFACA68629CECE6E00D95232 /* ToDoListApp.swift in Sources */,
 				AF6AD62629D1BF12005A24B0 /* AddView.swift in Sources */,
 				AFACA69729CECF3000D95232 /* ListView.swift in Sources */,
+				AF71E1B929D9796000B789EC /* NoItemsView.swift in Sources */,
 				AFACA69929CED28E00D95232 /* ListRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
